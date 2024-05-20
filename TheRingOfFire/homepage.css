@@ -1,0 +1,208 @@
+
+body{
+    overflow-x: hidden;
+}
+
+#nav{
+    position: absolute;
+    z-index: 99;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+#logo{
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.nav-link{
+    color: black!important ;
+    font-size: 35px;
+}
+
+
+
+main{
+    
+   
+    text-align: center;
+    z-index: 99;
+   
+}
+
+#cowboy{
+    z-index: 1;
+    position: absolute;
+    width:100%;
+    margin-top: -950px;
+    height: 115.5%;
+    transition: 400ms;
+}
+
+#sun{
+    z-index: 0;
+    position: absolute;
+   
+    margin-top: -950px;
+    width:1200px;
+    height: 700px;
+    left:0px !important;
+    transition: 400ms;
+    
+    
+}
+
+.sunMove{
+    translate: 0px 350px;
+}
+
+header{
+    background-image: url(./skyCow.png);
+    text-align: center;
+    background-size: 100% 100%;
+    height: 1000px;
+    position: relative;
+    background-repeat: none !important;
+    
+}
+
+#parallaxHeading{
+    font-size: 140px;
+    font-weight: bold;
+    color:white;
+    top:0;
+    margin-top: 300px;
+    margin-left: 35%;
+    transition: 200ms;
+    position: absolute;
+   
+}
+
+#parallaxHeading2{
+    font-size: 240px;
+    font-weight: bold;
+    color:white;
+    top:0;
+    margin-top: 450px;
+    margin-left: 35%;
+    transition: 200ms;
+    position: absolute;
+   
+}
+
+
+#trees{
+    width:100%;
+  
+    position: absolute;
+    top:151px!important;
+    transition: 700ms;
+    
+}
+
+article{
+    text-align: center;
+    height: 1500px;
+    background-color: #4e211e;
+   
+    
+}
+
+
+
+.card-body{
+    background-color: #914e3b;
+    border:0;
+    border-width: 0px !important;
+    border-radius: 50px;
+    
+}
+
+.container{
+    padding: 600px;
+    border-radius: 10px;
+}
+
+.card{
+    border:0px !important;
+    transition: 2000ms;
+    opacity: 0;
+    border-radius: 0px !important;
+    background: none!important;
+    
+    
+}
+
+.cardDisplay{
+    transform: 400ms;
+    opacity: 1;
+}
+
+.cardImg{
+    width:100%;
+    border-radius: 10px;
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+   
+
+}
+
+#img2{
+  margin-top: 100px;
+}
+
+#img4{
+    margin-top: 10px;
+  }
+
+
+  #background{
+    background-image: url(./bottomBack.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width:100%;
+    height:1200px; 
+    position: relative;
+   
+  }
+  /*make background height above, 1400 to remove bottom whitespace/*/
+
+#cursor{
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width:50px;
+    height: 50px;
+    top:0px;
+    left:0px;
+    border: 5px solid white;
+    transition: 150ms;
+    background-attachment: fixed;
+}
+
+
+
+#g1{
+    position: absolute;
+    top: 30px;
+    width:1200px;
+    left:500px ;
+    transition: 2500ms;
+}
+
+#g2{
+    position: absolute;
+    top: 0px;
+    width:1200px;
+    left:500px ;
+    transition:2500ms;
+    top: 26px;
+}
